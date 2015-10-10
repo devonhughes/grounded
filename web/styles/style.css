@@ -1,0 +1,200 @@
+body {
+  font: 12pt "Tahoma", "Arial", sans-serif;
+
+  }
+
+.wrapper{
+  background-color: lightgray;
+  color: black;
+  width: 900px;
+  position: relative;
+  margin-left: auto;
+  margin-right: auto;
+  height: 100%;
+}
+
+.welcome{
+  margin-left: auto;
+  margin-right: auto;
+  width: 18em;
+  padding-top: 8em;
+}
+a {
+  text-decoration: none;
+  color: white;
+
+}
+ul>a{
+  text-decoration: none;
+  color: black;
+}
+
+h1{
+  color: red;
+}
+
+li a:visited{
+  color: black;
+}
+
+h3 {
+  font-size: 20px;
+  font-weight: bold;
+  /* clear: both; */
+  float: right;
+  text-align: center;
+}
+h4 {
+    margin-bottom: 0;
+}
+#mainBody {
+    padding-left: 7.5em;
+}
+
+ul{
+  list-style-type: none;
+}
+.midwrapper{
+  position: relative;
+}
+.main{
+   /*clear: right;*/
+  float: right;
+  width: 800px;
+  height: 500px;
+  text-align: left;
+ 
+}
+
+.images>ul>li{
+  display: block;
+  float: left;
+  position: relative;
+  margin: 1em;
+
+  /* flex-direction: row; */
+}
+/*.main:after .main:before{
+  /*content:url('tirecol.jpg');
+  content:"";
+  background-image: url("tirecol.jpg");
+
+  width:3em;
+  height: 100%;
+/*}*/
+p{
+  color: white;
+
+}
+.header{
+  width: 900px;
+/*  height: 100px; */
+  text-align: center;
+  /*clear:both;*/
+  float: left;
+  margin: 0px;
+  padding: 0px;
+  border: 0px;
+  background-image: url("skid.jpg");
+  background-repeat: no-repeat;
+  background-position: left;
+
+}
+
+.topNav{
+  background-color: #585847;
+  height: 25px;
+  width: 890px;
+  margin: 0px;
+  padding: 0px;
+  border: 0px;
+/*  text-align: center; */
+  clear:left;
+
+
+}
+
+.topNav>ul{
+  margin:auto auto;
+
+
+}
+
+.topNav>ul>li{
+  /*text-shadow: 1px, 1px, black, 0;*/
+  display: block;
+  float:left;
+  margin-left: 5em;
+  margin-right: 2em;
+  color: black;
+  font-weight: bold;
+  text-align: right;
+
+}
+
+
+.sideNav{
+background-color: #8A8A7E;
+width: 100px;
+height: 520px;
+margin-left: 0px;
+padding-left: 0;
+/*clear: left;*/
+float: left;
+
+}
+.sideNav>ul{
+  list-style-type: none;
+  display: block;
+  /*background-color: #111;*/
+  font-weight: bold;
+  margin-left: 0px;
+
+  padding-left: 1em;
+}
+.sideNav>ul>li{
+  text-align: left;
+  margin-bottom: 8px;
+  color: black;
+
+}
+
+ .sideCol{
+  /*background-image: url("tirecolumn.jpg");*/
+  clear: left;
+  float: left;
+  /*display: inline;*/
+  margin: auto;
+}
+.main>h3{
+  text-align: center;
+  float: none;
+  
+}
+.main>h4{
+  text-align: center;
+  float: none;
+}
+.main>img{
+  float: left;
+  margin: 2em;
+
+}
+.main>p{
+  float: right;
+  text-align: right;
+  }
+.main>p>input{
+  width: 75px;
+  height: 25px;
+
+}
+.footer{
+  font-size: 12px;
+  clear: right;
+  display: block;
+  width: 900px;
+  text-align: center;
+  height: auto;
+
+}
